@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>hypermd-twemoji</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <textarea id="input-box" cols="30" rows="10"># hypermd-twemoji
+
+[GitHub](https://github.com/HyperMD/hypermd-twemoji) | [![NPM version](https://img.shields.io/npm/v/hypermd-twemoji.svg?style=flat-square)](https://npmjs.org/package/hypermd-twemoji)
+
+I'm using twemoji to render emojis! :tada:
+
+Note: this page already loaded [Emoji AutoComplete](https://github.com/laobubu/HyperMD/blob/master/docs/goods.md#complete-emoji) :clap:
+
+Input a colon `:`, or press Ctrl+Space...</textarea>
+
+  <p>Emoji icons provided free by <a href="https://twemoji.twitter.com/">twemoji</a></p>
+
+  <script src="https://cdn.jsdelivr.net/npm/requirejs/require.js"></script> <!-- 👈 RequireJS -->
+  <script src="https://cdn.jsdelivr.net/npm/hypermd/goods/patch-requirejs.js"></script> <!-- 👈 IMPORTANT -->
+  <script data-main src="./requirejs-main.js"></script>
+</body>
+
+</html>
